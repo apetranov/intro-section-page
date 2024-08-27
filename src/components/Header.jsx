@@ -145,6 +145,7 @@ function Header() {
         </button>
       </div>
       <Sheet
+        className="overflow-auto"
         open={isOpen}
         onOpenChange={(open) => {
           if (!open) {
@@ -158,7 +159,7 @@ function Header() {
         <SheetTrigger className="md:hidden">
           <MenuIcon />
         </SheetTrigger>
-        <SheetContent>
+        <SheetContent className="max-h-full overflow-y-auto">
           <SheetHeader className="flex justify-center items-center space-y-10">
             <SheetTitle>Menu</SheetTitle>
             <SheetDescription></SheetDescription>
