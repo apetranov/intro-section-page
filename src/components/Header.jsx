@@ -195,19 +195,35 @@ function Header() {
               {featuresActive ? (
                 <div className="flex flex-col space-y-5 pl-5">
                   <div className="flex hover:cursor-pointer flex-row  space-x-3">
-                    <img src="images/icon-todo.svg" alt="" />
+                    <img
+                      className="w-6 h-6 object-contain"
+                      src="images/icon-todo.svg"
+                      alt=""
+                    />
                     <p>Todo List</p>
                   </div>
                   <div className="flex hover:cursor-pointer flex-row  space-x-3">
-                    <img src="images/icon-calendar.svg" alt="" />
+                    <img
+                      className="w-6 h-6 object-contain"
+                      src="images/icon-calendar.svg"
+                      alt=""
+                    />
                     <p>Calendar</p>
                   </div>
                   <div className="flex hover:cursor-pointer flex-row r space-x-3">
-                    <img src="images/icon-reminders.svg" alt="" />
+                    <img
+                      className="w-6 h-6 object-contain"
+                      src="images/icon-reminders.svg"
+                      alt=""
+                    />
                     <p>Reminders</p>
                   </div>
                   <div className="flex hover:cursor-pointer flex-row  space-x-3">
-                    <img src="images/icon-planning.svg" alt="" />
+                    <img
+                      className="w-6 h-6 object-contain"
+                      src="images/icon-planning.svg"
+                      alt=""
+                    />
                     <p>Planning</p>
                   </div>
                 </div>
