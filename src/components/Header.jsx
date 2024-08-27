@@ -159,7 +159,7 @@ function Header() {
           <MenuIcon />
         </SheetTrigger>
         <SheetContent>
-          <SheetHeader>
+          <SheetHeader className="flex justify-center items-center space-y-10">
             <SheetTitle>Menu</SheetTitle>
             <SheetDescription></SheetDescription>
           </SheetHeader>
