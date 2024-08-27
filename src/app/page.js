@@ -19,10 +19,10 @@ export default function Home() {
             Learn more
           </button>
           <div className="flex flex-row justify-center items-center space-x-5">
-            <img src="images/client-databiz.svg" alt="" />
-            <img src="images/client-audiophile.svg" alt="" />
-            <img src="images/client-meet.svg" alt="" />
-            <img src="images/client-maker.svg" alt="" />
+            <img className="w-1/4" src="images/client-databiz.svg" alt="" />
+            <img className="w-1/4" src="images/client-audiophile.svg" alt="" />
+            <img className="w-1/4" src="images/client-meet.svg" alt="" />
+            <img className="w-1/4" src="images/client-maker.svg" alt="" />
           </div>
         </div>
         <img
